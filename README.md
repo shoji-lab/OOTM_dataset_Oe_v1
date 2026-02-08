@@ -5,3 +5,7 @@ The datasets were constructed as part of an ongoing academic research project on
 Further technical details will be released in a future publication.
 
 ## Overview
+
+## Maintainer
+Yuma Oe
+Shoji Laboratory, Shizuoka University
