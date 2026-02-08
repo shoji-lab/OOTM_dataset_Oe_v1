@@ -51,6 +51,13 @@ For future releases, we aim to:
 
 - Refine Data Quality: Implement manual filtering processes to ensure higher semantic consistency between situations and coordinate descriptions.
 
+## License
+This dataset is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). 
+
+**Usage Note**:
+* **Academic Use**: You are free to use this dataset for research purposes, provided that you cite our original paper(to appear).
+* **Disclaimer**: This dataset is derived from publicly available data on WEAR for research purposes. We do not own the rights to the original fashion styles or trends depicted in the descriptions.
+
 ## Maintainer
 Yuma Oe  
 Shoji Laboratory, Shizuoka University
