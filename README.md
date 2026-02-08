@@ -12,13 +12,13 @@ This dataset was constructed by captioning outfit images from social media using
 
 ### Methodology
 
-- VLM Annotator: Google's Gemma 3 (gemma-3 27b) was used for generating both descriptions and situations.
+- **VLM Annotator**: Google's Gemma 3 (gemma-3 27b) was used for generating both descriptions and situations.
 
-- Situation Components: Each situation is structured based on six elements: season, weather, location, activity, mood_theme, and companion.
+- **Situation Components**: Each situation is structured based on six elements: season, weather, location, activity, mood_theme, and companion.
 
     - The companion element may be null in cases where the situation does not involve others.
 
-- Text Generation: These elements were mapped to the following natural language template:
+- **Text Generation**: These elements were mapped to the following natural language template:
 
 "An outfit for {activity} at {location} in {season}. The weather is {weather}. Aiming for a {mood_theme} look. Going with {companion}." 
 
@@ -26,9 +26,9 @@ This dataset was constructed by captioning outfit images from social media using
 
 ### Structure
 Each CSV file contains the following columns:
-- ID: A unique identifier for each record.
-- caption: A detailed description of the outfit suitable for the given situation.
-- situation: The specific situational context generated (annotated) by the VLM.
+- **ID**: A unique identifier for each record.
+- **caption**: A detailed description of the outfit suitable for the given situation.
+- **situation**: The specific situational context generated (annotated) by the VLM.
 
 ## Repository Structure
 ```
