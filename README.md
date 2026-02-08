@@ -24,6 +24,12 @@ This dataset was constructed by captioning outfit images from social media using
 
 - The distributed CSV file provides these situations in their final natural language format, already converted from the raw components.
 
+### Structure
+Each CSV file contains the following columns:
+- ID: A unique identifier for each record.
+- caption: A detailed description of the outfit suitable for the given situation.
+- situation: The specific situational context generated (annotated) by the VLM.
+
 ## Repository Structure
 ```
 ├── README.md           <- Project overview and dataset documentation
@@ -32,6 +38,18 @@ This dataset was constructed by captioning outfit images from social media using
     ├── val_open.csv    <- Validation set (968 pairs) 
     └── test_open.csv   <- Test set (968 pairs)
 ```
+
+## Why "v1"?
+This dataset represents our initial effort to verbalize outfits that match specific real-world situations. We designated this as "v1" because we plan to continuously iterate on the methodology and release improved versions in the future.
+
+### Future Work
+For future releases, we aim to:
+
+- Incorporate Expert Annotations: Enhance the reliability of situation-coordinate pairings through professional fashion expertise.
+
+- Increase Dataset Diversity: Expand the collection to include a broader variety of fashion styles, demographics, and highly specific or unconventional situations.
+
+- Refine Data Quality: Implement manual filtering processes to ensure higher semantic consistency between situations and coordinate descriptions.
 
 ## Maintainer
 Yuma Oe  
