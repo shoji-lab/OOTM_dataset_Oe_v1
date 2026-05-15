@@ -60,8 +60,8 @@ This dataset is licensed under a [Creative Commons Attribution-NonCommercial 4.0
 
 ## Maintainer
 Yuma Oe  
-Shoji Laboratory, Shizuoka University
-Web: [https://kodhrt.github.io/](https://kodhrt.github.io/){:target="_blank"}
+Shoji Laboratory, Shizuoka University  
+Web: [https://kodhrt.github.io/](https://kodhrt.github.io/)
 
 ## Citation
 ```
