@@ -61,3 +61,14 @@ This dataset is licensed under a [Creative Commons Attribution-NonCommercial 4.0
 ## Maintainer
 Yuma Oe  
 Shoji Laboratory, Shizuoka University
+Web: [https://kodhrt.github.io/](https://kodhrt.github.io/){:target="_blank"}
+
+## Citation
+```
+@inproceedings{Oe2026asymmetric,
+  title={Asymmetric Pipeline for Dataset Construction and Situation-aware Generative Outfit Retrieval Leveraging Differences in Task Difficulty},
+  author={Yuma Oe, Katsumi Tanaka, Yoshiyuki Shoji},
+  booktitle={Proceedings of the 16th ACM International Conference on Multimedia Retrieval},
+  year={2026}
+}
+```
